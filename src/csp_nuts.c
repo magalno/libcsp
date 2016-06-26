@@ -22,9 +22,9 @@ uint8_t csp_nuts_init(void){
 
 	/* Enable debug output from CSP */
 	printf("Debug enabed\r\n");
-	csp_debug_toggle_level(CSP_BUFFER);
-	csp_debug_toggle_level(CSP_PACKET);
-	csp_debug_toggle_level(CSP_PROTOCOL);
+	//csp_debug_toggle_level(CSP_BUFFER);
+	//csp_debug_toggle_level(CSP_PACKET);
+	//csp_debug_toggle_level(CSP_PROTOCOL);
 
 	printf("Conn table\r\n");
 	csp_conn_print_table();
